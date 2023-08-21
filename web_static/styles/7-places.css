@@ -1,0 +1,31 @@
+/* 
+    Created on : Aug 20, 2023, 9:20:52 PM
+    Author     : Stanmarx
+*/
+
+article{
+    width: 390px;
+    padding: 20px auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+}
+
+.places article h2{
+    font-size: 30px;
+}
+.places {
+    font-size: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.places h1 {
+    text-align: left;
+    margin: 15px;
+}
