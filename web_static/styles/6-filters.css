@@ -18,14 +18,17 @@
     border-right: 1px solid #DDDDDD;
     display: inline-block;
     margin-left: 40px;
+    position: relative;
 }
 
 .amenities {
-    height: 100%;
+    
     width: 25%;
     display: inline-block;
     margin-left: 40px;
-    position: absolute;
+    position:absolute;
+    border-radius: 4px;
+    
 }
 
 h3 {
@@ -64,7 +67,7 @@ button:hover {
 }
 
 .popover {
-    display: none;
+    display:none;
     width: 100%;
     border: 1px solid #DDDDDD;
     background-color: #FAFAFA;
@@ -75,8 +78,10 @@ button:hover {
 
 div.locations:hover ul.popover {
     display: block;
+
 }
 
 div.amenities:hover ul.popover {
     display: block;
+
 }
